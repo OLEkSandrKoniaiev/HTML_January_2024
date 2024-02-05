@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>additionally2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+
+            font-family: 'Roboto', sans-serif;
+        }
+
+        main {
+            height: 500px;
+            width: 60%;
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .box {
+            height: 35%;
+            width: 42%;
+
+            display: flex;
+            flex-direction: column;
+
+            border-radius: 10px;
+
+            margin: 2%;
+            padding: 2%;
+        }
+
+        .box-description {
+            font-weight: 500;
+            font-size: 14pt;
+
+            margin: 5px 0;
+        }
+
+        .box-title {
+            font-weight: 700;
+            font-size: 24pt;
+
+            margin: 5px 0 15px 0;
+        }
+
+        .bottom {
+            width: fit-content;
+
+            color: white;
+            background-color: black;
+
+            border-radius: 10px;
+
+            font-weight: 700;
+            font-size: 16pt;
+
+            margin-top: auto;
+            padding: 10px;
+        }
+
+        .bg-red {
+            background-color: #FF8577;
+        }
+
+        .bg-blue {
+            background-color: #699BF7;
+        }
+
+        .bg-yellow {
+            background-color: #FFC700;
+        }
+
+        .bg-purple {
+            background-color: #C7B9FF;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div class="box bg-blue">
+        <p class="box-description">Tutorial video</p>
+        <p class="box-title">Dev Mode tutorial</p>
+        <div class="bottom">
+            <u>Watch the video</u>
+        </div>
+    </div>
+    <div class="box bg-purple">
+        <p class="box-description">Blog post</p>
+        <p class="box-title">Making Figma better for developers</p>
+        <div class="bottom">
+            <u>Go to the blog</u>
+        </div>
+    </div>
+    <div class="box bg-yellow">
+        <p class="box-description">Help center</p>
+        <p class="box-title">Guide to Dev Mode</p>
+        <div class="bottom">
+            <u>Read the article</u>
+        </div>
+    </div>
+    <div class="box bg-red">
+        <p class="box-description">Playground</p>
+        <p class="box-title">Prototype with variables</p>
+        <div class="bottom">
+            <u>Go to the playground</u>
+        </div>
+    </div>
+</main>
+</body>
+</html>
