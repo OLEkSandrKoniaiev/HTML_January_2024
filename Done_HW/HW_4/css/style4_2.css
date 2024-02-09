@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0;
+}
+
+/* Стилізація форми */
+form {
+    width: 75%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    height: 24pt;
+    width: 100%;
+}
+
+/* Стилізація полів введення */
+input[type="text"], input[type="password"] {
+    background-color: #F9F9F9;
+
+    border-width: 1pt;
+    border-radius: 4px;
+    border-color: #e4e4e4;
+
+    text-overflow: ellipsis;
+    letter-spacing: 1px;
+
+    padding-right: 4px;
+    padding-left: 8px;
+}
+
+/* Стилізація кнопки */
+input[type="submit"] {
+    width: 105%;
+
+    font-size: 12pt;
+    font-weight: 400;
+
+    color: #ffffff;
+    background-color: #79B3F3;
+
+    border-width: 0;
+    border-radius: 8px;
+
+    padding: 0;
+    transition: background-color 0.3s;
+}
+
+/* Стилізація при наведенні */
+input[type="submit"]:hover {
+    background-color: #4d88e0;
+}
+
+/* Стилізація при натисканні */
+input[type="submit"]:active {
+    background-color: #3672bf;
+}
+
+/* Стилізація головних блоків */
+.main-block {
+    width: 404px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #e4e4e4;
+}
+
+.reg-block {
+    width: 404px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #e4e4e4;
+}
+
+/* Стилізація індивідуальних елементів */
+#abo {
+    color: #737373;
+}
+
+#facebook-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#facebook-logo {
+    height: 14pt;
+}
+
+#facebook-a, #forgot, #reg {
+    color: #0866FF;
+    text-decoration: none;
+}
+
+#facebook-a:visited, #forgot:visited, #reg:visited {
+    color: #0866FF;
+}
+
+/* Стилі для багаторазового використання*/
+.mt-1 {
+    margin-top: 8px;
+}
+
+.mt-2 {
+    margin-top: 16px;
+}
+
+.mt-3 {
+    margin-top: 24px;
+}
+
+.mt-4 {
+    margin-top: 32px;
+}
+
+.mb-1 {
+    margin-bottom: 8px;
+}
+
+.mb-2 {
+    margin-bottom: 16px;
+}
+
+.mb-3 {
+    margin-bottom: 24px;
+}
+
+.mb-4 {
+    margin-bottom: 32px;
+}
+
+.mr-1 {
+    margin-right: 8px;
+}
+
+.my-1 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.my-2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.my-3 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.my-4 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.font-f-Cookie {
+    font-family: 'Cookie', cursive;
+}
+
+.font-w-3 {
+    font-weight: 300;
+}
+
+.font-w-4 {
+    font-weight: 400;
+}
+
+.font-w-7 {
+    font-weight: 700;
+}
+
+.font-sz-10 {
+    font-size: 10pt;
+}
+
+.font-sz-12 {
+    font-size: 12pt;
+}
+
+.font-sz-48 {
+    font-size: 48pt;
+}
