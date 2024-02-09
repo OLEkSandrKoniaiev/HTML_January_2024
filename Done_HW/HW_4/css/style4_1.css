@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@400&display=swap');
+
+body {
+    background-image: url("../images/bg4_1.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    font-family: 'KoHo', sans-serif;
+
+    margin: 0;
+}
+
+button {
+    height: 75px;
+    width: 410px;
+
+    font-family: 'KoHo', sans-serif;
+}
+
+.section {
+    height: 100vh;
+}
+
+/*Перша секція*/
+.head-cont {
+    height: 400px;
+    width: 1060px;
+}
+
+.head-cont-el {
+    height: 400px;
+    width: 530px;
+}
+
+.head-cont-el img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*Друга секція*/
+.main-cont {
+    height: auto;
+    width: 950px;
+}
+
+/*Третя секція*/
+.cont-card {
+    height: 700px;
+    width: 455px;
+
+    text-align: center;
+}
+
+.cont-card button {
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background-color: rgba(217, 217, 217, 0.60);
+    color: #6B6666;
+}
+
+.cont-card button:hover {
+    background-color: rgba(217, 217, 217, 0.70);
+}
+
+.cont-card button:active {
+    background-color: rgba(217, 217, 217, 0.50);
+}
+
+.cont-card-el {
+    height: 215px;
+    width: 410px;
+}
+
+.cont-card-el img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*Стилі котрі використовуються багаторазово*/
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-white {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.bg-white-50 {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-gray-40 {
+    background: rgba(83, 83, 83, 0.40);
+}
+
+.font-sz-25px {
+    font-size: 25px;
+}
+
+.font-sz-30px {
+    font-size: 30px;
+}
+
+.font-sz-35px {
+    font-size: 35px;
+}
+
+.font-sz-45px {
+    font-size: 45px;
+}
+
+.my-110px {
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.ml-50px {
+    margin-left: 50px;
+}
+
+.mb-only-25px {
+    margin: 0 0 25px 0;
+}
+
+.mb-only-30px {
+    margin: 0 0 30px 0;
+}
+
+.mb-only-45px {
+    margin: 0 0 45px 0;
+}
+
+.mb-only-60px {
+    margin: 0 0 60px 0;
+}
+
+.mb-only-100px {
+    margin: 0 0 100px 0;
+}
+
+.shadow-t {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.shadow-b {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
