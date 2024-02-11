@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@400;700&display=swap');
+
+body {
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Rubik', sans-serif;
+
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+}
+
+/*Шапка і навігація*/
+header {
+    height: 90px;
+}
+
+header img {
+    height: 50px;
+    width: 186px;
+
+    margin: 25px 0 0 0;
+}
+
+nav {
+    height: 60px;
+}
+
+nav div {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+}
+
+nav div a {
+    text-decoration: none;
+    color: #99A2AA;
+    font-size: 16px;
+}
+
+/*Секція 1*/
+.section-1 {
+    height: 440px;
+
+    background-color: #FEC524;
+}
+
+.s1-title {
+    height: 220px;
+    width: 570px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    font-size: 44px;
+    font-weight: bold;
+
+    color: #FFF;
+
+    margin-bottom: 92px;
+}
+
+.s1-title>span:last-child {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+
+    color: #0E2F4B;
+}
+
+.s1-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+
+    gap: 30px;
+
+    margin-top: 30px;
+}
+
+input[type="text"] {
+    height: 75px;
+    width: 510px;
+
+    background-color: #FFF;
+
+    border-radius: 10px;
+    border-style: none;
+
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+
+    text-overflow: ellipsis;
+    letter-spacing: 0.5px;
+
+    padding: 0 30px 0 30px;
+
+    box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
+}
+
+input[type="text"]:hover {
+    background-color: #f9f9f9;
+}
+
+.s1-body button {
+    height: 80px;
+    width: 270px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 25px;
+
+    border-style: none;
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #99A2AA;
+    background-color: #fff;
+    box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
+}
+
+.s1-body button:hover {
+    background-color: #f9f9f9;
+}
+
+.s1-body button:active {
+    transform: scale(0.95);
+}
+
+/*Секція 2*/
+.section-2 {
+    height: 800px;
+
+    background-color: #F8F8F8;
+}
+
+header, nav, .section-1, .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, footer {
+    display: flex;
+    justify-content: center;
+}
+
+/*Стилі котрі використовуються багаторазово*/
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.width-210px {
+    width: 210px;
+}
+
+.bg-white {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.bg-white-50 {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-gray-40 {
+    background: rgba(83, 83, 83, 0.40);
+}
+
+.bg-dark-white-30 {
+    background: rgba(217, 217, 217, 0.30);
+}
+
+.font-f-Open-Sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font-f-Rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+.font-sz-20px {
+    font-size: 20px;
+}
+
+.font-sz-25px {
+    font-size: 25px;
+}
+
+.font-sz-30px {
+    font-size: 30px;
+}
+
+.font-sz-35px {
+    font-size: 35px;
+}
+
+.font-sz-40px {
+    font-size: 40px;
+}
+
+.font-sz-45px {
+    font-size: 45px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.my-110px {
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.mt-10px {
+    margin-top: 10px;
+}
+
+.mt-35px {
+    margin-top: 35px;
+}
+
+.mt-45px {
+    margin-top: 45px;
+}
+
+.ml-50px {
+    margin-left: 50px;
+}
+
+.mb-10px {
+    margin-bottom: 10px;
+}
+
+.mb-35px {
+    margin-bottom: 35px;
+}
+
+.mb-only-5px {
+    margin: 0 0 5px 0;
+}
+
+.mb-only-25px {
+    margin: 0 0 25px 0;
+}
+
+.mb-only-30px {
+    margin: 0 0 30px 0;
+}
+
+.mb-only-45px {
+    margin: 0 0 45px 0;
+}
+
+.mb-only-60px {
+    margin: 0 0 60px 0;
+}
+
+.mb-only-100px {
+    margin: 0 0 100px 0;
+}
+
+.shadow-t {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.shadow-b {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.border-col-dark-green {
+    border-color: #65856E;
+}

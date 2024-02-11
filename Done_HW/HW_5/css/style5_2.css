@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+
+    margin: 0;
+}
+
+.task-1>li:nth-child(even) {
+    color: pink;
+}
+
+.task-2>li:nth-child(odd) {
+    font-size: 22px;
+}
+
+.task-3>li:nth-child(2n+4)::after {
+    content: "!";
+}
+
+.task-4>li:last-child {
+    color: purple;
+}
+
+.task-5>li::first-letter {
+    color: red;
+    font-size: 30px;
+}
+
+/*Стилі котрі використовуються багаторазово*/
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.width-210px {
+    width: 210px;
+}
+
+.bg-white {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.bg-white-50 {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-gray-40 {
+    background: rgba(83, 83, 83, 0.40);
+}
+
+.bg-dark-white-30 {
+    background: rgba(217, 217, 217, 0.30);
+}
+
+.font-sz-20px {
+    font-size: 20px;
+}
+
+.font-sz-25px {
+    font-size: 25px;
+}
+
+.font-sz-30px {
+    font-size: 30px;
+}
+
+.font-sz-35px {
+    font-size: 35px;
+}
+
+.font-sz-40px {
+    font-size: 40px;
+}
+
+.font-sz-45px {
+    font-size: 45px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.my-110px {
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.ml-50px {
+    margin-left: 50px;
+}
+
+.mb-only-5px {
+    margin: 0 0 5px 0;
+}
+
+.mb-only-25px {
+    margin: 0 0 25px 0;
+}
+
+.mb-only-30px {
+    margin: 0 0 30px 0;
+}
+
+.mb-only-45px {
+    margin: 0 0 45px 0;
+}
+
+.mb-only-60px {
+    margin: 0 0 60px 0;
+}
+
+.mb-only-100px {
+    margin: 0 0 100px 0;
+}
+
+.shadow-t {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.shadow-b {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.border-col-dark-green {
+    border-color: #65856E;
+}
