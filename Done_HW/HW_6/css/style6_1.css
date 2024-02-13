@@ -1,0 +1,51 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+    margin: 0;
+}
+
+.section-A {
+    height: 34vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #817C7C;
+}
+
+.section-BC {
+    height: 66vh;
+    width: 100vw;
+
+    display: flex;
+}
+
+.section-B {
+    height: 100%;
+    width: 75vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #B7AEAE;
+}
+
+.section-C {
+    height: 100%;
+    width: 25vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #BDBDBD;
+}

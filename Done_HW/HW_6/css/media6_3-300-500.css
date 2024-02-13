@@ -1,0 +1,56 @@
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .box-link span, .section-banner span, .box-article span, .section-footer span {
+        margin: 0;
+    }
+
+    .section-link {
+        height: 20vh;
+        width: 100%;
+
+        flex-direction: column;
+        justify-content: space-around;
+
+        gap: 0;
+
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+    }
+
+    .box-link {
+        height: 22%;
+        width: 100%;
+    }
+
+    .section-banner {
+        height: 19vh;
+
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: 1vh;
+    }
+
+    .section-article {
+        height: 50vh;
+
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-around;
+
+        gap: 0;
+    }
+
+    .box-article {
+        height: 23%;
+        width: 100%;
+
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: 0;
+    }
+
+    .section-footer {
+        height: 5vh;
+    }
+}

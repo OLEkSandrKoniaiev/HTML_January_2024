@@ -1,0 +1,21 @@
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .section-A {
+        height: 20vh;
+    }
+
+    .section-BC {
+        height: 80vh;
+
+        flex-direction: column;
+    }
+
+    .section-B {
+        height: 75%;
+        width: 100%;
+    }
+
+    .section-C {
+        height: 25%;
+        width: 100%;
+    }
+}

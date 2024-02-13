@@ -1,0 +1,21 @@
+@media screen and (min-width: 501px) and (max-width: 850px) {
+    .section-banner span {
+        margin: 40px 80px;
+    }
+
+    .box-article {
+        height: 100%;
+        width: 24%;
+
+        justify-content: end;
+        align-items: center;
+        text-align: center;
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+        transform: rotate(180deg);
+    }
+
+    .box-article span {
+        margin-bottom: 20px;
+    }
+}
